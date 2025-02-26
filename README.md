@@ -1,5 +1,3 @@
-Sure! Below is the exact content for the `README.md` file that you can directly paste into your file.
-
 ### `README.md`
 
 ```markdown
