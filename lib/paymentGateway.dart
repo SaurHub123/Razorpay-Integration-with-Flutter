@@ -26,14 +26,20 @@ class _RazorpayPaymentScreenState extends State<RazorpayPaymentScreen> {
 
   void openCheckout() {
     var options = {
-      'key': '', // Replace with your Razorpay Key ID
-      'amount': 32900, 
-      'name': 'SELECT-SPORTS',
-      'description': 'Payment for Slot #893a7b48-0705-4662-989a-b0119af9b482',
-      'prefill': {'contact': '+917261854534', 'email': 'Saurabh@user.com'},
-      'external': {
-        'wallets': ['paytm']
-      }
+        "key":"rzp_test_YouRraZorPayKey",
+         "order_id": "order_Q0pfdXdiC0eaiG",
+        "amount": 10000,
+        "name": "SELECT-SPORTS",
+        "description": "Payment for Slot #b9fe83b2-fa0c-430f-8093-8e68a3b87912",
+        "prefill": {
+            "contact": "8923456783",
+            "email": "Saurabh@user.com"
+        },
+        "external": {
+            "wallets": [
+                "paytm"
+            ]
+        }
     };
 
     try {
